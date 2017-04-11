@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="index.css">
+		<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+		<title>CB</title>
+	</head>
+	<body>
+	<script src="website.js"></script>
+		<nav>
+		<a class="navBar" href="home.html">Home</a> 
+		<a class="navBar" href="about.html">About</a> 
+		<a class="navBar" href="photos.html">Photos</a>	
+		<a class="navBar" href="coding.html">Coding</a>	
+		<a class="navBar" href="contacts.html">Contact</a>	
+		</nav>
+<h3><br>Photos</br>-</h3>
+<p id="photobody">I've always had a passion for photography, here are just a few examples of the type of pictures that I take.</p>
+<div id="images">
+<img id="myImg" class="modalImg" src="images/cat.jpg" alt="My Cat" width="300" height="200">
+<img id="myImg" class="modalImg" src="images/seal.jpg" alt="Hungry Seal" width="300" height="200">
+<img id="myImg" class="modalImg" src="images/spider.jpg" alt="Ew" width="300" height="200">
+<img id="myImg" class="modalImg" src="images/meerkat.jpg" alt="Meerkat" width="300" height="200">
+<img id="myImg" class="modalImg" src="images/parrot.jpg" alt="Parrot" width="300" height="200">
+<img id="myImg" class="modalImg" src="images/giraffe.jpg" alt="Giraffe" width="300" height="200">
+<img id="myImg" class="modalImg" src="images/gecko.jpg" alt="My leopard Gecko" width="300" height="200">
+</div>
+<div id="myModal" class="modal">
+  <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+  <img class="modal-content" id="img01">
+  <div id="caption"></div>
+</div>
+		
+	</body>
+</html>
